@@ -12,4 +12,4 @@ for i in range(0, arrLen):
     if brand not in res:
         res[brand] = []
     res[brand].append(title)
-res
+print(res)
